@@ -311,17 +311,17 @@
 		}
 	
 	   &.avatar48 {
-		   width: 100px;          // new size
-		   height: 100px;
+		   width: 50px;          // new size
+		   height: 50px;
 		   border-radius: 50%;    // make it round
 		   overflow: hidden;      // clip the image
 		   display: inline-block;
 	
 		   img {
-		       width: 100%;
-		       height: 100%;
+		       width: 50%;
+		       height: 50%;
 		       object-fit: cover;
-		       border-radius: 50%;
+		       border-radius: 25%;
 		       display: block;
 		   }
 		}
