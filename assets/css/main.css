@@ -1760,7 +1760,6 @@ input, select, textarea {
               border-radius: 50%;       /* ensures round shape */
               overflow: hidden;         /* hides anything outside the circle */
               display: inline-block;
-			  vertical-align: middle; // aligns with text
 		}
 
 			.image.avatar48 img {
@@ -1769,23 +1768,6 @@ input, select, textarea {
                   object-fit: cover;        /* keeps aspect ratio & fills circle */
                   border-radius: 50%;
                   display: block;
-			}
-
-			#logo {
-			  display: flex;
-			  align-items: center;      // vertically center avatar and text
-			  gap: 10px;                // space between avatar and text
-			}
-			
-			#logo h1 {
-			  margin: 0;
-			  font-size: 1.2em;
-			}
-			
-			#logo p {
-			  margin: 0;
-			  font-size: 0.9em;
-			  color: #ccc;
 			}
 
 		.image.fit {
