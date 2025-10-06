@@ -1760,6 +1760,7 @@ input, select, textarea {
               border-radius: 50%;       /* ensures round shape */
               overflow: hidden;         /* hides anything outside the circle */
               display: inline-block;
+			  vertical-align: middle; // aligns with text
 		}
 
 			.image.avatar48 img {
