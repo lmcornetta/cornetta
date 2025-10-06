@@ -316,7 +316,6 @@
 		   border-radius: 50%;    // make it round
 		   overflow: hidden;      // clip the image
 		   display: inline-block;
-		   vertical-align: middle; // aligns with text
 	
 		   img {
 		       width: 100%;
@@ -325,23 +324,6 @@
 		       border-radius: 50%;
 		       display: block;
 		   }
-		}
-
-		#logo {
-		  display: flex;
-		  align-items: center;      // vertically center avatar and text
-		  gap: 10px;                // space between avatar and text
-		}
-		
-		#logo h1 {
-		  margin: 0;
-		  font-size: 1.2em;
-		}
-		
-		#logo p {
-		  margin: 0;
-		  font-size: 0.9em;
-		  color: #ccc;
 		}
 
 		&.fit {
